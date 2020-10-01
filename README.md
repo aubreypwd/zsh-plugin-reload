@@ -2,6 +2,14 @@
 
 Simple alias to reload your `$HOME/.zshrc` file (e.g. if you change it).
 
+_It will also source `$HOME/.zshrc.secure` if you have created that too._
+
+## Usage
+
+```bash
+reload
+```
+
 ## Install
 
 Using [antigen](https://github.com/zsh-users/antigen):
