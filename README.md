@@ -1,13 +1,13 @@
-# My Plugin
+# `reload`
 
-Simple description of your plugin.
+Simple alias to reload your `$HOME/.zshrc` file (e.g. if you change it).
 
 ## Install
 
 Using [antigen](https://github.com/zsh-users/antigen):
 
 ```bash
-antigen bundle github-username/{$plugin-slug}@1.0.0
+antigen bundle aubreypwd/zsh-plugin-reload@1.0.0
 ```
 
 ## Development
@@ -15,10 +15,10 @@ antigen bundle github-username/{$plugin-slug}@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle github-username/{$plugin-slug}
+antigen bundle aubreypwd/zsh-plugin-reload
 ```
 
-...and contribute upstream by working in `$HOME/.antigen/bundles/{$plugin-slug}`.
+...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-reload`.
 
 ---
 
