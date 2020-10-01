@@ -1,8 +1,8 @@
 # `reload`
 
-Simple alias to reload your `$HOME/.zshrc` file (e.g. if you change it).
+Simple function to reload your `$HOME/.zshrc` file (e.g. if you change it).
 
-_It will also source `$HOME/.zshrc.secure` if you have created that too._
+- _It will also source `$HOME/.zshrc.secure` if you have created that too._
 
 ## Usage
 
