@@ -31,3 +31,7 @@ antigen bundle aubreypwd/zsh-plugin-reload
 ---
 
 ## Changelog
+
+## 1.0.0
+
+- First version of what I've used for years.
