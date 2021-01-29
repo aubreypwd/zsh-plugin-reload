@@ -10,13 +10,6 @@
  # @since 1.0.0
  ##
 function reload {
-	if ! [[ -e "$HOME/.zshrc.secure" ]]; then
-
-		# Create a ~/.zshrc.secure file and we will also source that.
-		source "$HOME/.zshrc.secure"
-	fi
-
 	source "$HOME/.zshrc"
-
 	echo "Reloaded"
 }
