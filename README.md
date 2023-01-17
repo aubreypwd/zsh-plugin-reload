@@ -15,7 +15,7 @@ reload
 Using [antigen](https://github.com/zsh-users/antigen):
 
 ```bash
-antigen bundle aubreypwd/zsh-plugin-reload@1.2.0
+antigen bundle aubreypwd/zsh-plugin-reload
 ```
 
 ## Development
