@@ -14,8 +14,9 @@ reload () {
 
 	if test ! -x "$(command -v "omz")"; then
 
-		omz reload && \
-			return 0
+		echo "Reloading..." && \
+			omz reload && \
+				return 0
 	fi
 
 	. "$HOME/.zshrc"
