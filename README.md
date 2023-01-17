@@ -27,11 +27,3 @@ antigen bundle ssh://git@github.com/aubreypwd/zsh-plugin-reload
 ```
 
 ...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-reload`.
-
----
-
-## Changelog
-
-## 1.0.0
-
-- First version of what I've used for years.
