@@ -12,14 +12,15 @@
  ##
 reload () {
 
-	if test ! -x "$(command -v "omz")"; then
+	if [[ ! -x "$(command -v "omz")" ]]; then
 
 		echo "Reloading..." && \
 			omz reload && \
 				return 0
 	fi
 
-	. "$HOME/.zshrc"
+	ZDOTDIR=${ZDOTDIR:-$HOME}
+	. "$ZDOTDIR/.zshrc"
 
-	echo "Sourced $HOME/.zshrc"
+	echo "Sourced $ZDOTDIR/.zshrc"
 }
